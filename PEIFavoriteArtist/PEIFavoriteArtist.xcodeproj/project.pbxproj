@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		45DAD4A7242F9E1C00A646DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4A6242F9E1C00A646DE /* AppDelegate.m */; };
 		45DAD4AA242F9E1C00A646DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4A9242F9E1C00A646DE /* SceneDelegate.m */; };
-		45DAD4AD242F9E1C00A646DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4AC242F9E1C00A646DE /* ViewController.m */; };
 		45DAD4B0242F9E1C00A646DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD4AE242F9E1C00A646DE /* Main.storyboard */; };
 		45DAD4B2242F9E1F00A646DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD4B1242F9E1F00A646DE /* Assets.xcassets */; };
 		45DAD4B5242F9E1F00A646DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DAD4B3242F9E1F00A646DE /* LaunchScreen.storyboard */; };
 		45DAD4B8242F9E1F00A646DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4B7242F9E1F00A646DE /* main.m */; };
+		45DAD4C1242FAB6A00A646DE /* PEIArtistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4C0242FAB6A00A646DE /* PEIArtistTableViewController.m */; };
+		45DAD4C4242FAB8400A646DE /* PEIArtistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4C3242FAB8400A646DE /* PEIArtistDetailViewController.m */; };
+		45DAD4C8242FAC6A00A646DE /* PEIArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4C7242FAC6A00A646DE /* PEIArtist.m */; };
+		45DAD4CF242FAD2300A646DE /* PEIArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4CE242FAD2300A646DE /* PEIArtistController.m */; };
+		45DAD4D8242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DAD4D7242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,21 @@
 		45DAD4A6242F9E1C00A646DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		45DAD4A8242F9E1C00A646DE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		45DAD4A9242F9E1C00A646DE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		45DAD4AB242F9E1C00A646DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45DAD4AC242F9E1C00A646DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45DAD4AF242F9E1C00A646DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45DAD4B1242F9E1F00A646DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45DAD4B4242F9E1F00A646DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45DAD4B6242F9E1F00A646DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45DAD4B7242F9E1F00A646DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45DAD4BF242FAB6900A646DE /* PEIArtistTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIArtistTableViewController.h; sourceTree = "<group>"; };
+		45DAD4C0242FAB6A00A646DE /* PEIArtistTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIArtistTableViewController.m; sourceTree = "<group>"; };
+		45DAD4C2242FAB8400A646DE /* PEIArtistDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIArtistDetailViewController.h; sourceTree = "<group>"; };
+		45DAD4C3242FAB8400A646DE /* PEIArtistDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIArtistDetailViewController.m; sourceTree = "<group>"; };
+		45DAD4C6242FAC6A00A646DE /* PEIArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIArtist.h; sourceTree = "<group>"; };
+		45DAD4C7242FAC6A00A646DE /* PEIArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIArtist.m; sourceTree = "<group>"; };
+		45DAD4CD242FAD2300A646DE /* PEIArtistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEIArtistController.h; sourceTree = "<group>"; };
+		45DAD4CE242FAD2300A646DE /* PEIArtistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEIArtistController.m; sourceTree = "<group>"; };
+		45DAD4D6242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PEIAritst+PEIArtist_NSJSONSerialization.h"; sourceTree = "<group>"; };
+		45DAD4D7242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PEIAritst+PEIArtist_NSJSONSerialization.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +73,13 @@
 		45DAD4A4242F9E1C00A646DE /* PEIFavoriteArtist */ = {
 			isa = PBXGroup;
 			children = (
+				45DAD4CC242FACFD00A646DE /* PEIArtistController */,
+				45DAD4C5242FAC3800A646DE /* Model */,
+				45DAD4BE242FAB4300A646DE /* View Controllers */,
 				45DAD4A5242F9E1C00A646DE /* AppDelegate.h */,
 				45DAD4A6242F9E1C00A646DE /* AppDelegate.m */,
 				45DAD4A8242F9E1C00A646DE /* SceneDelegate.h */,
 				45DAD4A9242F9E1C00A646DE /* SceneDelegate.m */,
-				45DAD4AB242F9E1C00A646DE /* ViewController.h */,
-				45DAD4AC242F9E1C00A646DE /* ViewController.m */,
 				45DAD4AE242F9E1C00A646DE /* Main.storyboard */,
 				45DAD4B1242F9E1F00A646DE /* Assets.xcassets */,
 				45DAD4B3242F9E1F00A646DE /* LaunchScreen.storyboard */,
@@ -74,6 +87,37 @@
 				45DAD4B7242F9E1F00A646DE /* main.m */,
 			);
 			path = PEIFavoriteArtist;
+			sourceTree = "<group>";
+		};
+		45DAD4BE242FAB4300A646DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD4C2242FAB8400A646DE /* PEIArtistDetailViewController.h */,
+				45DAD4C3242FAB8400A646DE /* PEIArtistDetailViewController.m */,
+				45DAD4BF242FAB6900A646DE /* PEIArtistTableViewController.h */,
+				45DAD4C0242FAB6A00A646DE /* PEIArtistTableViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		45DAD4C5242FAC3800A646DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD4C6242FAC6A00A646DE /* PEIArtist.h */,
+				45DAD4C7242FAC6A00A646DE /* PEIArtist.m */,
+				45DAD4D6242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.h */,
+				45DAD4D7242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45DAD4CC242FACFD00A646DE /* PEIArtistController */ = {
+			isa = PBXGroup;
+			children = (
+				45DAD4CD242FAD2300A646DE /* PEIArtistController.h */,
+				45DAD4CE242FAD2300A646DE /* PEIArtistController.m */,
+			);
+			path = PEIArtistController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DAD4AD242F9E1C00A646DE /* ViewController.m in Sources */,
 				45DAD4A7242F9E1C00A646DE /* AppDelegate.m in Sources */,
+				45DAD4D8242FB11500A646DE /* PEIAritst+PEIArtist_NSJSONSerialization.m in Sources */,
+				45DAD4CF242FAD2300A646DE /* PEIArtistController.m in Sources */,
+				45DAD4C8242FAC6A00A646DE /* PEIArtist.m in Sources */,
+				45DAD4C4242FAB8400A646DE /* PEIArtistDetailViewController.m in Sources */,
+				45DAD4C1242FAB6A00A646DE /* PEIArtistTableViewController.m in Sources */,
 				45DAD4B8242F9E1F00A646DE /* main.m in Sources */,
 				45DAD4AA242F9E1C00A646DE /* SceneDelegate.m in Sources */,
 			);
